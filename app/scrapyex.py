@@ -15,3 +15,4 @@ class NaukriSpider(scrapy.Spider):
             f.write(response.text)
 
         print("HTML saved")
+        print("Just for Git")
